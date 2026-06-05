@@ -16,6 +16,7 @@ const Content = props => (
             <Route path="/" exact element={<Home />} />
             <Route path="*" element={<NotFound />} />
             {/* Home sem exact por ultimo => qnd n encontrar uma pag vai voltar pra home! */}
+            {/* exact é um parametro opcional, e ele vai buscar o path exato */}
             {/* <Route path="/"  element={<Home />} /> */}
         </Routes>
     </main>
